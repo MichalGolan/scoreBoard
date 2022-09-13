@@ -1,0 +1,87 @@
+.head {
+        background: #1B244A;
+}
+
+.header {
+    -webkit-text-fill-color: #F0F9FF;
+}
+body {
+    text-align: center;
+    margin: 0
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 50px;
+    color: #F94F6D;
+    width: 80px;
+    margin: 15px;
+    border-radius: 8px;
+    font-family: Cursed Timer ULiL;
+}
+
+.button {
+    margin: 100px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px; 
+    font-family: Cursed Timer ULiL;
+    -webkit-text-fill-color: #F0F9FF;
+    background: #1B244A;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#clear-btn {
+    background: #1B244A;
+    border-color: #CBDDED;
+    border-width: 1px;
+    -webkit-text-fill-color: #CBDDED;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 14px;
+
+}
+#increment-btn {
+    background: #1B244A;      
+    border-color: #CBDDED;
+    border-width: 1px;
+    -webkit-text-fill-color: #CBDDED;
+    padding: 5px;
+    border-radius: 8px;
+    
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    top: 20px; 
+    font-family:Arial;
+    -webkit-text-fill-color: #F0F9FF;
+    background: #1B244A;
+    border-radius: 8px;
+    font-size: 12px;
+    }
+
+span {
+    border-bottom: 2px solid black;
+    border: 2px solid black;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    
+}
+
+.clearConteiner {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    margin-top: 15px;
+}
